@@ -1,6 +1,9 @@
 Revision history for Perl module Net::LastFM:
 
-0.35 2018-08-17T10:12:52
+0.36 2018-08-17T10:16:34
+ - Add github url to CPAN metadata (Andrew Baerg)
+
+0.35 2018-08-17T10:12:52Z
  - Migrate to Dist::Zilla (Andrew Baerg)
 
 0.34 2009-04-21T08:04:54Z
