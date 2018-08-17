@@ -1,11 +1,11 @@
 package Net::LastFM;
+
 use Moose;
 use MooseX::StrictConstructor;
 use Digest::MD5 qw(md5_hex);
 use JSON::XS::VersionOneAndTwo;
 use LWP::UserAgent;
 use URI::QueryParam;
-our $VERSION = '0.34';
 
 has 'api_key' => (
     is       => 'rw',
