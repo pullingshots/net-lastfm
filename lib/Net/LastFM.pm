@@ -25,7 +25,7 @@ has 'ua' => (
     required => 0,
     default  => sub {
         my $ua = LWP::UserAgent->new;
-        $ua->agent( 'Net::LastFM/' . $VERSION );
+        $ua->agent( 'Net::LastFM/' . $Net::LastFM::VERSION );
         $ua->env_proxy;
         return $ua;
     }
