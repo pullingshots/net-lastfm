@@ -45,7 +45,7 @@ sub create_http_request {
     }
     $uri->query_param( 'format', 'json' );
 
-    return HTTP::Request->new( 'POST', $uri );
+    return HTTP::Request->new( 'POST', $uri, [ 'Content-Length' => 0 ] );
 }
 
 sub create_http_request_signed {
